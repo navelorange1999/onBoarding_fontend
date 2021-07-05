@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "esnext",
     "lib": [
       "dom",
@@ -8,6 +8,7 @@
       "esnext"
     ],
     "allowJs": true,
+    "noImplicitAny": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -22,9 +23,11 @@
     "typeRoots": [
       "../node_modules/@types",
       "../@types"
-    ]
+    ],
+    "baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"],
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": [ "src" ]
 }
