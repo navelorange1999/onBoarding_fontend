@@ -1,0 +1,16 @@
+build/*
+dist/*
+public/*
+config/*
+scripts/*
+mock-server/*
+src/**/__test__/*
+src/**/__tests__/*
+tests/**
+features/**
+server/*
+cypress/*
+src/generated/*
+ssr/
+vite.config.ts
+
