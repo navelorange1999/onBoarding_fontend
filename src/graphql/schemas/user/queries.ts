@@ -7,3 +7,12 @@ export const LOGIN = gql`
         }
     }
 `
+
+export const GETALLADMIN = gql`
+    query getAllAdmin {
+        getAllAdmin {
+            _id,
+            username
+        }
+    }
+`
